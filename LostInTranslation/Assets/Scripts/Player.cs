@@ -5,7 +5,8 @@ using UnityEngine;
 //allows scene management functionality 
 using UnityEngine.SceneManagement;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour
+{
 
 
     // custom variables 
@@ -17,12 +18,17 @@ public class Player : MonoBehaviour {
 
     public Animator playerAnimator;
     public SpriteRenderer playerSprite;
-    public Collider2D playerCollider; 
+    public Collider2D playerCollider;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+
+  
+    
+
+    // Use this for initialization
+    void Start()
+    {
+        
+    }
 
     // Update is called once per frame
     void Update()
@@ -79,7 +85,7 @@ public class Player : MonoBehaviour {
             physicsBody.velocity = velocity;
 
 
-        }
 
+        }
     }
 }
