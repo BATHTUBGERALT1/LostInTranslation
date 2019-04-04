@@ -21,8 +21,8 @@ public class Player : MonoBehaviour
     public Collider2D playerCollider;
 
 
-  
-    
+
+
 
     // Use this for initialization
     void Start()
@@ -88,4 +88,5 @@ public class Player : MonoBehaviour
 
         }
     }
+   
 }
