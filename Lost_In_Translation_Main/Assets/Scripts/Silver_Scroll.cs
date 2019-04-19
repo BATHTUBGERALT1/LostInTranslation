@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class Silver_Scroll : MonoBehaviour {
 
 
-    //Setting "AuidoSource" to 
 
     public Score scoreObject;
 
