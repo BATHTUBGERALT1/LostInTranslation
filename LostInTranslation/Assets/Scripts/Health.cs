@@ -27,7 +27,6 @@ public class Health : MonoBehaviour {
             else
             {
                 hearts[i].sprite = emptyHeart;
-
             }
             if(i < numOfHearts)
             {
